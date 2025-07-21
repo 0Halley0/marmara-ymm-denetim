@@ -1,0 +1,15 @@
+:root {
+  --bg-color: #fbfcf8;
+  --text-color: #222222;
+  --primary-color: #1c363a;
+  --bg-navbar: #1c363a;
+  --text-navbar: #fbfcf8;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1c363a;
+  --text-color: #fbfcf8;
+  --primary-color: #e3c395;
+  --bg-navbar: #1c363a;
+  --text-navbar: #fbfcf8;
+}
