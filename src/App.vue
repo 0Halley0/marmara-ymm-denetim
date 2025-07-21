@@ -36,18 +36,24 @@ import ContactSection from "./components/ContactSection.vue";
 
 <style>
 main {
-  padding-top: 80px; /* navbar yüksekliği kadar boşluk */
+  padding-top: 80px;
 }
 
 .section {
   min-height: 100vh;
+  width: 100vw;
   padding: 2rem;
   border-bottom: 1px solid #ccc;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  width: 100%;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 </style>
